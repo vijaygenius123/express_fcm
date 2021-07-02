@@ -1,0 +1,23 @@
+{
+  "name": "express_fcm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaygenius123/express_fcm.git"
+  },
+  "keywords": [],
+  "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vijaygenius123/express_fcm/issues"
+  },
+  "homepage": "https://github.com/vijaygenius123/express_fcm#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
