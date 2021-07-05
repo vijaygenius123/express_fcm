@@ -6,6 +6,9 @@ services:
     - "8000:8000"
     environment:
       PORT: 8000
+      MONGO_URI: mongodb://db:27017/react_fcm
+    depends_on:
+      - db
   db:
     image: mongo
     ports:

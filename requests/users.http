@@ -1,0 +1,11 @@
+GET http://localhost:8000
+
+
+###
+POST http://localhost:8000/users/save
+Content-Type: application/json
+
+{
+  "name": "Vijay",
+  "deviceToken": "12345"
+}
