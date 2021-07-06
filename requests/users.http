@@ -6,6 +6,14 @@ POST http://localhost:8000/users/save
 Content-Type: application/json
 
 {
-  "name": "Vijay",
-  "deviceToken": "12345"
+  "name": "Vijay Chrome",
+  "deviceToken": "<Token>"
+}
+
+###
+POST http://localhost:8000/users/notify
+Content-Type: application/json
+
+{
+  "name": "Vijay Chrome"
 }
